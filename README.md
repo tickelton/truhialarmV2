@@ -1,6 +1,6 @@
 # truhialarmV2
 
-![schmeatic](https://gitlab.com/tickelton/truhialarmV2/blob/master/images/truhialamv2_boxed_small.jpg "Schmatic")
+![image of truhialarmV2](https://gitlab.com/tickelton/truhialarmV2/blob/master/images/truhialamv2_boxed_small.jpg "image of truhialarmV2")
 
 truhialarmV2 is a simple IoT project with the goal of sending email notifications when a sensor changes state.
 
@@ -18,7 +18,7 @@ The project consists of only 3 pieces of hardware:
 * a CH340 USB to serial adapter
 * a magnetic door sensor
 
-![schmeatic](https://gitlab.com/tickelton/truhialarmV2/blob/master/schematics/truhialarmv3_minimal_schem.png "Schmatic")
+![schematic](https://gitlab.com/tickelton/truhialarmV2/blob/master/schematics/truhialarmv3_minimal_schem.png "Schematic")
 
 The CH340 Adapter is not actually necessary but only used as a power supply. Alternatively you can use any other type of 3.3v power supply.
 
@@ -27,6 +27,7 @@ I chose to stick with it for production use as it was the most convenient 3.3v p
 For more elaborate debugging circuits and flashing instructions, please refer to the excellent instructions that are pretty much everywhere on the internet, e.g.:
 
 https://www.allaboutcircuits.com/projects/breadboard-and-program-an-esp-01-circuit-with-the-arduino-ide/
+
 http://www.arjunsk.com/iot/iot-using-esp8266-programmer-ch340g-chip-adapter/
 
 
@@ -53,6 +54,7 @@ While the ESP-01 board does have two dedicated GPIO pins, in this case the senso
 The reason for this is that on the ESP-1 GPIO0 and GPIO2 are overloaded with the selection of the programming/bootloader mode.
 
 For more details please refer to the excellent guide on the topic that can be found here:
+
 https://www.forward.com.au/pfod/ESP8266/GPIOpins/ESP8266_01_pin_magic.html
 
 ## Copyright
