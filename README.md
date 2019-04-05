@@ -18,7 +18,7 @@ The project consists of only 3 pieces of hardware:
 * a CH340 USB to serial adapter
 * a magnetic door sensor
 
-![schematic](https://gitlab.com/tickelton/truhialarmV2/blob/master/schematics/truhialarmv3_minimal_schem.svg)
+![schematic](schematics/truhialarmv3_minimal_schem.png)
 
 The CH340 Adapter is not actually necessary but only used as a power supply. Alternatively you can use any other type of 3.3v power supply.
 
