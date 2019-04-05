@@ -1,6 +1,6 @@
 # truhialarmV2
 
-![image of truhialarmV2](https://gitlab.com/tickelton/truhialarmV2/blob/master/images/truhialamv2_boxed_small.jpg)
+![image of truhialarmV2](images/truhialamv2_boxed_small.jpg)
 
 truhialarmV2 is a simple IoT project with the goal of sending email notifications when a sensor changes state.
 
